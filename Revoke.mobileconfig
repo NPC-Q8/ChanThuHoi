@@ -1,0 +1,104 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>ServerAddresses</key>
+<array>
+<string>2a06:98c1:54::15:8398</string>
+</array>
+<key>SupplementalMatchDomains</key>
+<array>
+<string>apple.com</string>
+</array>
+</dict>
+<key>PayloadDisplayName</key>
+<string>Chặn Thu Hồi</string>
+<key>PayloadOrganization</key>
+<string>=>Tiết Kiệm Pin - Mát Máy</string>
+<key>PayloadIdentifier</key>
+<string>346775546643456655666</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>3467754565445666756633</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict> 
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>ServerAddresses</key>
+<array>
+<string>2a06:98c1:54::15:60e7</string>
+</array>
+<key>SupplementalMatchDomains</key>
+<array>
+<string>apple.com</string>
+</array>
+</dict>
+<key>PayloadDisplayName</key>
+<string>Chặn Thu Hồi - OTA</string>
+<key>PayloadOrganization</key>
+<string>=>Tiết Kiệm Pin - Mát Máy</string>
+<key>PayloadIdentifier</key>
+<string>3467755466434566556</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>34677545654456667566</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict> 
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>ServerAddresses</key>
+<array>
+<string>2a06:98c1:54::15:60e7</string>
+</array>
+</dict>
+<key>PayloadDisplayName</key>
+<string>Chặn Thu Hồi - OTA - ADS</string>
+<key>PayloadOrganization</key>
+<string>=>Hao Pin - Nóng Máy</string>
+<key>PayloadIdentifier</key>
+<string>3467755466434566</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>34677545654456667</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict> 
+</array>
+<key>PayloadDisplayName</key>
+<string>Chặn Thu Hồi - OTA - ADS</string>
+<key>PayloadDescription</key>
+<string>
+Lưu Ý:
++ Không dùng DNS hoặc VPN khác song song với DNS này khi chưa biết DNS và VPN đó có chức năng chặn thu hồi.
++ Trước khi khởi động lại máy thì tắt hết mạng và bật chế độ máy bay để tránh rò rĩ mạng. Vì khi khởi động lại máy nếu mạng đang bật, cấu hình chưa kịp hoạt động sẽ gây rò rĩ mạng, hậu quả là chứng chỉ bị thu hồi.
+
+Thông Tin:
++ Có 3 DNS: "Chặn Thu Hồi" và "Chặn Thu Hồi - Cập Nhật Ios" và "Chặn Thu Hồi - Cập Nhật Ios - Quảng Cáo", bạn chỉ cần chọn 1 trong 3 tuỳ theo nhu cầu. Trong đó DNS "Chặn Thu Hồi" và "Chặn Thu Hồi - Cập Nhật Ios" đở nóng máy hơn vì chỉ dùng máy chủ DNS khi cần thiết, DNS "Chặn Thu Hồi - Cập Nhật Ios - Quảng Cáo" luôn dùng máy chủ DNS.
++ Cấu hình này hạn chế tối đa nóng máy hao pin vì đã loại bỏ Doh và Dot. Doh và Dot là hai dạng DNS mã hoá
+
+</string>
+<key>PayloadIdentifier</key>
+<string>34577745777444677</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>97654445675456777</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>
